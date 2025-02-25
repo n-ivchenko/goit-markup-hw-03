@@ -242,6 +242,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .section-list-our-team {
@@ -250,14 +251,18 @@ button {
   gap: 24px;
 }
 
-.staff-description {
+.team-description {
   display: flex;
   flex-direction: column;
   padding: 32px 0;
+  text-align: center;
+  align-items: center;
+  margin: auto;
 }
 
 .section-item-title-our-team {
   display: flex;
+  align-items: center;
   text-align: center;
   margin-bottom: 8px;
 }
