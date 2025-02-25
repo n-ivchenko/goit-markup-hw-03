@@ -250,15 +250,16 @@ button {
   gap: 24px;
 }
 
-.section-list-item-our-team {
+.staff-description {
   display: flex;
   flex-direction: column;
+  padding: 32px 0;
 }
 
 .section-item-title-our-team {
   display: flex;
-  margin-bottom: 32px;
-  margin-top: 32px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .section-list {
