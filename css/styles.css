@@ -37,6 +37,7 @@ button {
   display: flex;
   width: 1158px;
   margin: 0 auto;
+
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -49,14 +50,9 @@ button {
 
 .header-container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  justify-content: space-between;
-  align-items: center;
+  padding: 0 15px;
 }
 
 .logo-header {
@@ -72,11 +68,16 @@ button {
 
 .header-adress {
   font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 auto;
 }
 
 .nav-header {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .header .logo-header-style {
@@ -87,10 +88,10 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .nav-header-item {
+  padding: 24px 0;
 }
 .header-nav-item-list {
   font-weight: 500;
@@ -110,7 +111,6 @@ button {
 
 .header-adress-nav {
   display: flex;
-
   gap: 40px;
 }
 .header-adress-nav-item {
@@ -122,7 +122,6 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
-  align-items: center;
 }
 
 .header-adress-nav-item-list:hover {
