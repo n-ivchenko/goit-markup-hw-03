@@ -246,10 +246,8 @@ button {
 }
 
 .section-our-team {
-  text-align: center;
-  justify-content: center;
-  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .section-title {
@@ -303,6 +301,10 @@ button {
 /* #region section our portfolio */
 
 .our-portfolio {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+
 }
 .section-title {
   line-height: 1.11;
@@ -355,15 +357,14 @@ button {
 /* #region footer */
 
 .footer-container {
-  display: inline-block;
-  
-  padding: 100px 0;
   
 
 }
 
 .footer {
+  
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer .logo-footer {
@@ -380,11 +381,11 @@ button {
 
 .logo-footer-style {
     
-
   color: #f4f4fd;
 }
 
 .footer-text {
+  
   text-align: start;
   font-weight: 400;
   font-size: 16px;
