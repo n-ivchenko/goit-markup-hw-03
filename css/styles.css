@@ -34,20 +34,28 @@ button {
 }
 
 .container {
-  max-width: 1158px;
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
 }
 
 /* #region header */
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
   align-items: center;
 }
 
@@ -77,6 +85,7 @@ button {
 
 .nav-list-header {
   display: flex;
+  align-items: center;
   gap: 40px;
   padding: 24px 0;
 }
@@ -101,6 +110,7 @@ button {
 
 .header-adress-nav {
   display: flex;
+
   gap: 40px;
 }
 .header-adress-nav-item {
