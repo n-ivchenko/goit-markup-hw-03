@@ -304,6 +304,8 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-title {
   line-height: 1.11;
