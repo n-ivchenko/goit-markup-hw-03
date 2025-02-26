@@ -249,6 +249,10 @@ button {
 }
 
 .section-our-team {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .section-title {
@@ -262,23 +266,28 @@ button {
   margin-bottom: 72px;
 }
 
+.title-our-team {
+  margin-bottom: 72px;
+}
+
 .section-list-our-team {
   display: flex;
-  margin-top: 72px;
   gap: 24px;
 }
 
+.section-list-item-our-team {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-discription {
-  display: flex;
-  flex-direction: column;
   padding: 32px 0;
   text-align: center;
-  align-items: center;
-  margin: auto;
 }
 
 .section-item-title-our-team {
-  display: flex;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .section-list {
