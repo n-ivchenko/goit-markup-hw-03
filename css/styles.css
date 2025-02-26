@@ -298,26 +298,34 @@ button {
 .section-item-text {
 }
 
-.portfolio-list {
-  
-
 .section-our-portfolio {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .title-our-portfolio {
-
 }
 
 .list-our-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 24px;
 }
 
-.list-item-our-portfolio {
+.portfolio-list {
+  padding: 32px 16px;
 }
 
-.item-title-our-portfolio {
+.item-titel-our-portfolio {
+  display: flex;
+  width: calc((100% - 48px) / 3);
+
+  text-align: start;
 }
 
 .item-text-our-portfolio {
+  text-align: start;
 }
 
 /* endregion our portfolio */
