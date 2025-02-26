@@ -226,6 +226,7 @@ button {
 }
 
 .item-title-no-name {
+  margin-bottom: 8px;
   width: calc((100% - 72px * 3) / 4);
   gap: 24px;
   display: flex;
