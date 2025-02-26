@@ -22,7 +22,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 img {
@@ -185,12 +185,14 @@ button {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  padding: 0;
   border: 0;
+
   white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }
 
 .section-list {
@@ -205,14 +207,17 @@ button {
 }
 
 .section-item-title {
-  width: calc((100% - 72px * 3) / 4);
-  gap: 24px;
-  display: flex;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.item-title-no-name {
+  width: calc((100% - 72px * 3) / 4);
+  gap: 24px;
+  display: flex;
 }
 
 .section-item-text {
@@ -251,7 +256,7 @@ button {
   gap: 24px;
 }
 
-.team-description {
+.team-discription {
   display: flex;
   flex-direction: column;
   padding: 32px 0;
@@ -262,9 +267,6 @@ button {
 
 .section-item-title-our-team {
   display: flex;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 8px;
 }
 
 .section-list {
@@ -294,6 +296,28 @@ button {
 .section-item-title {
 }
 .section-item-text {
+}
+
+.portfolio-list {
+  
+
+.section-our-portfolio {
+}
+
+.title-our-portfolio {
+
+}
+
+.list-our-portfolio {
+}
+
+.list-item-our-portfolio {
+}
+
+.item-title-our-portfolio {
+}
+
+.item-text-our-portfolio {
 }
 
 /* endregion our portfolio */
