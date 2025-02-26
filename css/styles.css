@@ -34,9 +34,9 @@ button {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* #region header */
@@ -85,18 +85,18 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .nav-header-item {
-  padding: 24px 0;
 }
 .header-nav-item-list {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-nav-item-list:hover {
@@ -110,7 +110,6 @@ button {
 .header-adress-nav {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-adress-nav-item {
 }
@@ -136,6 +135,7 @@ button {
 
 .hero {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .section {
@@ -145,8 +145,6 @@ button {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .hero-title {
@@ -186,8 +184,11 @@ button {
 
 /* #region section-no-name */
 
-.section-no-name {
+.no-name {
   padding: 120px 0;
+}
+
+.section-no-name {
 }
 
 .visually-hidden {
@@ -213,6 +214,7 @@ button {
 }
 
 .section-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-item-title {
@@ -244,12 +246,12 @@ button {
 
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .section-our-team {
   flex-wrap: wrap;
   justify-content: center;
-  padding: 120px 0;
 }
 
 .section-title {
@@ -294,6 +296,7 @@ button {
   background-color: #ffffff;
 }
 .section-item-title {
+  margin-bottom: 8px;
 }
 .section-item-text {
 }
@@ -309,6 +312,7 @@ button {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .section-title {
   line-height: 1.11;
 }
@@ -363,8 +367,6 @@ button {
 /* #region footer */
 
 .footer-container {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer {
@@ -373,6 +375,7 @@ button {
 }
 
 .footer .logo-footer {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -380,6 +383,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .logo-footer-style {
