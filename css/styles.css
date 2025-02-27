@@ -227,7 +227,7 @@ button {
 
 .item-title-no-name {
   margin-bottom: 8px;
-  width: calc((100% - 72px * 3) / 4);
+
   gap: 24px;
   display: flex;
 }
@@ -326,16 +326,13 @@ button {
 }
 
 .section-our-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 100px 0;
 }
 
 .section-item-title-our-portfolio {
 }
 
 .title-our-portfolio {
-  text-align: center;
+  /* text-align: center; не потрібно */
 }
 
 .list-our-portfolio {
@@ -391,6 +388,7 @@ button {
 }
 
 .footer-text {
+  max-width: 264px;
   text-align: start;
   font-weight: 400;
   font-size: 16px;
